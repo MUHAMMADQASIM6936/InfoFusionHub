@@ -1,0 +1,221 @@
+#main-heading{
+    padding-top: 1.1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    border: 4px solid black;
+    animation-duration: 3s;
+    animation-name: slidein;
+    background-color: grey;
+}
+@keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+  #img1{
+    width: 10%;
+    padding-left: 0.1%;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-top: 15px;
+
+    margin-right: 70px;
+    
+    margin-bottom: 35px;
+    
+    margin-left: 80px;
+  }
+
+  /* #cryptobutton{
+    display:block;
+   
+ 
+  background-color:rgb(179, 169, 169);
+  box-sizing: border-box;
+  width: auto;
+  size: 10%;
+  color: black;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+  
+  } */
+ 
+  
+  #img2{
+    
+    float: left;
+    width: 12.7%;
+    padding: 5px;
+    padding-top: 1%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-top: 15px;
+
+    margin-right: 70px;
+    
+    margin-bottom: 35px;
+    
+    margin-left: 80px;
+  }
+
+  #img3{
+    float: left;
+    width: 13%;
+    padding: 5px;
+    padding-top: 3%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-top: 15px;
+
+    margin-right: 70px;
+    
+    margin-bottom: 35px;
+    
+    margin-left: 80px;
+  }
+
+  #img4{
+  
+    width: 11%;
+   
+    padding-top: 0.3%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-top: 15px;
+
+    margin-right: 70px;
+    
+    margin-bottom: 35px;
+    
+    margin-left: 80px;
+    
+    
+  }
+  #icons::after {
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: center;
+ 
+  }
+
+  #buttons::after{
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: center;
+  }
+
+  #btn1{
+    width: 10%;
+    padding-left: 0.1%;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+    float: left;
+    width: 10%;
+    padding: 5px;
+    margin-top: 15px;
+
+    margin-right: 70px;
+    
+    margin-bottom: 35px;
+    
+    margin-left: 125px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+   background-color: rgb(69, 117, 176);
+   border: 4px solid black;
+  }
+  
+  #btn2{
+    float: left;
+    width: 10%;
+    padding: 5px;
+    
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-top: 15px;
+
+    margin-right: 70px;
+    
+    margin-bottom: 35px;
+    
+    margin-left: 138px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+     background-color: whitesmoke;
+     border: 4px solid black;
+  }
+
+
+ #btn3{
+  float: left;
+  width: 10%;
+  padding: 5px;
+  
+  animation-duration: 3s;
+  animation-name: slidein;
+  margin-top: 15px;
+
+  margin-right: 70px;
+  
+  margin-bottom: 35px;
+  
+  margin-left: 138px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+   background-color: rgb(21, 216, 196);
+   border: 4px solid black;
+ } 
+
+ #btn4{
+
+
+  width: 10%;
+   
+  padding: 5px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  margin-top: 15px;
+
+  margin-right: 70px;
+  
+  margin-bottom: 35px;
+  
+  margin-left: 127px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  background-color: rgb(106, 60, 28);
+  border: 4px solid black;
+ }
+
+#btn1:hover{
+  background-color: green;
+}
+#btn2:hover{
+  background-color: green;
+}
+#btn3:hover{
+  background-color: green;
+}
+#btn4:hover{
+  background-color: green;
+}
+
